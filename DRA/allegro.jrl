@@ -1,0 +1,19 @@
+\t (00:00:01) allegro 16.6-2015 S062 (v16-6-112FA) Windows 32
+\t (00:00:01)     Journal start - Wed Jan 20 18:31:52 2016
+\t (00:00:01)         Host=YEN-DESKTOP User=Yen Pid=3904 CPUs=4
+\t (00:00:01) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:04) trapsize 641
+\i (00:00:04) trapsize 629
+\i (00:00:04) trapsize 643
+\i (00:00:04) trapsize 944
+\i (00:00:04) generaledit 
+\i (00:00:07) opencd G:/1MLPF/PCB/1MLPF.brd 
+\i (00:00:09) fillin confirm
+\i (00:00:17) fillin "D:\Project\1MLPF\PCB\1MLPF.brd"
+\i (00:00:17) cd "D:\Project\1MLPF\PCB"
+\t (00:00:17) Opening existing design...
+\i (00:00:17) trapsize 450
+\t (00:00:17)     Journal end - Wed Jan 20 18:32:07 2016

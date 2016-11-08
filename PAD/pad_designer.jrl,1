@@ -1,0 +1,70 @@
+\t (00:00:00) pad_designer 16.6-2015 S051 (v16-6-112DY) Windows 32
+\t (00:00:00)     Journal start - Thu Dec 17 15:56:32 2015
+\t (00:00:00)         Host=YEN-DESKTOP User=Yen Pid=4420 CPUs=4
+\t (00:00:00) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:02) setwindow form.padedit
+\i (00:00:02) FORM padedit layers  
+\i (00:00:04) FORM padedit grid row begin_layer 
+\i (00:00:09) FORM padedit geometry Rectangle 
+\i (00:00:14) FORM padedit width .58 
+\w (00:00:14) User units conversion failed.
+\i (00:00:21) FORM padedit width .58 
+\w (00:00:21) User units conversion failed.
+\i (00:00:31) FORM padedit width 1 
+\i (00:00:34) FORM padedit height 1 
+\i (00:00:38) FORM padedit width 0.58 
+\w (00:00:38) User units conversion failed.
+\i (00:00:43) FORM padedit parameters  
+\i (00:00:45) FORM padedit units Millimeter 
+\i (00:00:46) fillin yes 
+\w (00:00:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:47) FORM padedit layers  
+\i (00:00:50) FORM padedit width .58 
+\i (00:01:00) FORM padedit height .9 
+\i (00:01:15) FORM padedit width_ant .75 
+\i (00:01:20) FORM padedit height_ant 1.1 
+\i (00:01:23) FORM padedit geometry_ant Rectangle 
+\i (00:01:25) FORM padedit width_ant .78 
+\i (00:01:32) FORM padedit height_ant 1.1 
+\i (00:01:32) FORM padedit grid row soldermask_top 
+\i (00:02:02) FORM padedit grid row begin_layer 
+\i (00:02:04) FORM padedit grid row end_layer 
+\i (00:02:06) FORM padedit geometry Rectangle 
+\i (00:02:08) FORM padedit width .58 
+\i (00:02:12) FORM padedit height .9 
+\i (00:02:12) FORM padedit grid row begin_layer 
+\i (00:02:13) FORM padedit grid row end_layer 
+\i (00:02:14) FORM padedit grid row begin_layer 
+\i (00:02:15) FORM padedit grid row end_layer 
+\i (00:02:16) FORM padedit grid row begin_layer 
+\i (00:02:18) FORM padedit geometry Null 
+\i (00:02:18) FORM padedit grid row end_layer 
+\i (00:02:22) FORM padedit geometry_ant Rectangle 
+\i (00:02:24) FORM padedit width_ant .78 
+\i (00:02:26) FORM padedit height_ant 1.1 
+\i (00:02:26) FORM padedit grid row begin_layer 
+\i (00:02:28) FORM padedit grid row end_layer 
+\i (00:02:29) FORM padedit grid row begin_layer 
+\i (00:02:31) FORM padedit geometry_ant Null 
+\i (00:02:35) FORM padedit grid row end_layer 
+\i (00:03:00) FORM padedit grid row soldermask_bottom 
+\i (00:03:04) FORM padedit geometry Rectangle 
+\i (00:03:10) FORM padedit width .68 
+\i (00:03:11) FORM padedit height 1 
+\i (00:03:16) FORM padedit grid row end_layer 
+\i (00:03:18) FORM padedit grid row soldermask_bottom 
+\i (00:03:20) FORM padedit grid row end_layer 
+\i (00:03:21) FORM padedit grid row soldermask_bottom 
+\i (00:03:22) FORM padedit grid row pastemask_bottom 
+\i (00:03:32) FORM padedit geometry Rectangle 
+\i (00:03:35) FORM padedit width 0.5 
+\i (00:03:59) FORM padedit height .8 
+\i (00:13:32) pse_save_as 
+\i (00:13:36) setwindow text
+\i (00:13:36) close 
+\i (00:13:38) fillin yes 
+\i (00:14:02) fillin "C:\Users\Yen\Desktop\r58_90bottom.pad"
+\i (00:14:06) setwindow form.padedit
+\i (00:14:06) pse_exit
+\t (00:14:06)     Journal end - Thu Dec 17 16:10:39 2015
