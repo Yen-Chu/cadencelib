@@ -1,0 +1,67 @@
+# Allegro Script
+# File: C:\WORK\Project\lib\SON11P40_200X200X80L30X20T150X80N\CMPLX-1121-0_8-1_5.psx
+version 17.2
+
+new
+newdrawfillin "CMPLX-1121-0_8-1_5.dra" "Shape Symbol"
+setwindow pcb
+
+# Drawing Parameters
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit units Millimeter
+FORM prmedit accuracy 4
+FORM prmedit size Other
+FORM prmedit x -7.5
+FORM prmedit y -7.5
+FORM prmedit width 15
+FORM prmedit height 15
+FORM prmedit x -7.5
+FORM prmedit y -7.5
+FORM prmedit done
+setwindow pcb
+
+# Graphics
+shape add
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass
+FORM mini dyns_fill_type Static solid
+FORM mini dyns_grid None
+FORM mini dyns_lock_mode Line
+setwindow pcb
+pick 0 -0.75
+pick -0.2 -0.75
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick -0.4 -0.55
+pick -0.3414 -0.6914
+pick -0.4 0.35
+pick 0 0.75
+pick 0.2 0.75
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick 0.4 0.55
+pick 0.3414 0.6914
+pick 0.4 -0.55
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick 0.2 -0.75
+pick 0.3414 -0.6914
+pick 0 -0.75
+done
+
+zoom fit
+save_as
+fillin "cmplx-1121-0_8-1_5.dra"
+create symbol
+fillin "cmplx-1121-0_8-1_5.ssm"
+exit
+fillin yes
+
+# end
