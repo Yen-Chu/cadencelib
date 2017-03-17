@@ -12,11 +12,24 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\work\project\lib\cadencelib\library0.olb"))
+      (Path "Design Resources" "c:\work\project\lib\cadencelib\library0.olb")
+      (Select "Design Resources" "c:\work\project\lib\cadencelib\library0.olb"
+         "AXP288"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 292"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 292"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1044 130 461")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "288 0")
+        (Zoom "248"))
+      (Path "C:\WORK\PROJECT\LIB\CADENCELIB\LIBRARY0.OLB")
+      (Package "AXP288")))
   (MPSSessionName "zhuya"))
