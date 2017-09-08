@@ -12,8 +12,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\library0.olb")
-      (Select "Design Resources" ".\library0.olb" "XC9536XL-xxVQG44x"))
+      (Path "Design Resources" "d:\work\cadencelib\library0.olb")
+      (Select "Design Resources" "d:\work\cadencelib\library0.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -23,12 +23,12 @@
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1296 78 381")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "252 86")
-        (Zoom "126"))
+        (Scroll "1136 218")
+        (Zoom "295"))
       (Path "D:\WORK\CADENCELIB\LIBRARY0.OLB")
-      (Package "XC9536XL-xxVQG44x")))
+      (Package "MGA-81563")))
   (MPSSessionName "zhuya"))
