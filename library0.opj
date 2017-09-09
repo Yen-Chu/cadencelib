@@ -18,17 +18,6 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 292"))
-      (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1296 78 381")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1136 218")
-        (Zoom "295"))
-      (Path "D:\WORK\CADENCELIB\LIBRARY0.OLB")
-      (Package "MGA-81563")))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 292"))
+      (Tab 0)))
   (MPSSessionName "zhuya"))
