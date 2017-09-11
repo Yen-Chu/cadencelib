@@ -12,8 +12,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\work\cadencelib\library0.olb")
-      (Select "Design Resources" "d:\work\cadencelib\library0.olb" "MAX5048C"))
+      (Path "Design Resources" "d:\work\cadencelib\library0.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
