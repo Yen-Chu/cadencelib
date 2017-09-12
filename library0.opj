@@ -13,7 +13,7 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "d:\work\cadencelib\library0.olb")
-      (Select "Design Resources" "d:\work\cadencelib\library0.olb" "CAP_NP"))
+      (Select "Design Resources" "d:\work\cadencelib\library0.olb" "DIODE_LED"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
