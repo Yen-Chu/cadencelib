@@ -13,7 +13,7 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\library0.olb")
-      (Select "Design Resources" ".\library0.olb" "RELAY DPDT HE"))
+      (Select "Design Resources" ".\library0.olb" "HEADER 6"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -23,12 +23,23 @@
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
         (Scroll "4196 1003")
         (Zoom "631"))
       (Path "D:\WORK\CADENCELIB\LIBRARY0.OLB")
-      (Package "RELAY DPDT HE")))
+      (Package "RELAY DPDT HE"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2254 556")
+        (Zoom "386"))
+      (Path "D:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (Package "HEADER 6")))
   (MPSSessionName "zhuya"))
