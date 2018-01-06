@@ -1,7 +1,9 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\connector.olb"
+        (Type "Schematic Library")))
     (File ".\library0.olb"
       (Type "Schematic Library"))
     (BuildFileAddedOrDeleted "x")
@@ -12,12 +14,26 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\work\cadencelib\library0.olb")
-      (Select "Design Resources" "d:\work\cadencelib\library0.olb"))
+      (Path "Design Resources" ".\library0.olb")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\connector.olb")
+      (Select "Design Resources" ".\library0.olb" "SN65HVD72/75/78"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 200 0 292"))
-      (Tab 0)))
-  (MPSSessionName "zhuya"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1070 211")
+        (Zoom "242"))
+      (Path "D:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (Package "SN65HVD72/75/78")))
+  (MPSSessionName "zhuya")
+  (ISPCBBASICLICENSE "false"))
