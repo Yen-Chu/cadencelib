@@ -1,28 +1,39 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
   (Folder "Design Resources"
-    (Folder "Library"
-      (File ".\connector.olb"
-        (Type "Schematic Library")))
+    (Folder "Library")
     (File ".\library0.olb"
       (Type "Schematic Library"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (NoModify))
+    (NoModify)
+    (File ".\connector.olb"
+      (Type "Schematic Library")))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "d:\work\cadencelib\library0.olb")
+      (Path "Design Resources" "d:\work\cadencelib\connector.olb")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "d:\work\cadencelib\connector.olb")
-      (Select "Design Resources" "d:\work\cadencelib\library0.olb"))
+      (Select "Design Resources" "d:\work\cadencelib\library0.olb" "ES9038PRO"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 292"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 292"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1763 596")
+        (Zoom "288"))
+      (Path "D:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (Package "ES9038PRO")))
   (MPSSessionName "zhuya")
   (ISPCBBASICLICENSE "false"))
