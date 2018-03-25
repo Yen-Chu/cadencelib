@@ -1,0 +1,68 @@
+# Allegro Script
+# File: D:\WORK\cadencelib\QFN33P40_400X400X80L40X20T265N\CMPLX-1121-2_65-2_65.psx
+version 17.2
+
+new
+newdrawfillin "CMPLX-1121-2_65-2_65.dra" "Shape Symbol"
+setwindow pcb
+
+# Drawing Parameters
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit units Millimeter
+FORM prmedit accuracy 4
+FORM prmedit size Other
+FORM prmedit x -10
+FORM prmedit y -10
+FORM prmedit width 20
+FORM prmedit height 20
+FORM prmedit x -10
+FORM prmedit y -10
+FORM prmedit done
+setwindow pcb
+
+# Graphics
+shape add
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass
+FORM mini dyns_fill_type Static solid
+FORM mini dyns_grid None
+FORM mini dyns_lock_mode Line
+setwindow pcb
+pick 0 -1.325
+pick -1.225 -1.325
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick -1.325 -1.225
+pick -1.2957 -1.2957
+pick -1.325 0.975
+pick -0.975 1.325
+pick 1.225 1.325
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick 1.325 1.225
+pick 1.2957 1.2957
+pick 1.325 -1.225
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick 1.225 -1.325
+pick 1.2957 -1.2957
+pick 0 -1.325
+done
+
+zoom fit
+save_as
+fillin "cmplx-1121-2_65-2_65.dra"
+create symbol
+fillin "cmplx-1121-2_65-2_65.ssm"
+fillin yes
+exit
+fillin yes
+
+# end

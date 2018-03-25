@@ -14,9 +14,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\library0.olb")
-      (Path "Design Resources" ".\connector.olb")
-      (Select "Design Resources" ".\library0.olb" "XN6435"))
+      (Path "Design Resources" "d:\work\cadencelib\library0.olb")
+      (Path "Design Resources" "d:\work\cadencelib\connector.olb")
+      (Select "Design Resources" "d:\work\cadencelib\library0.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
