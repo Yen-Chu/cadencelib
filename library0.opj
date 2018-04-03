@@ -16,7 +16,8 @@
       (Path "Design Resources")
       (Path "Design Resources" "d:\work\cadencelib\library0.olb")
       (Path "Design Resources" "d:\work\cadencelib\connector.olb")
-      (Select "Design Resources" "d:\work\cadencelib\library0.olb"))
+      (Select "Design Resources" "d:\work\cadencelib\library0.olb"
+         "UU9-8_10(10-5)_15-7(16)"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
