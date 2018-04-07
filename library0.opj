@@ -15,7 +15,6 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "d:\work\cadencelib\library0.olb")
-      (Path "Design Resources" "d:\work\cadencelib\connector.olb")
       (Select "Design Resources" "d:\work\cadencelib\library0.olb" "TOP2xxV/K"))
     (HierarchyView)
     (Doc
