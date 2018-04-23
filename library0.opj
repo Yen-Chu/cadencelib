@@ -15,12 +15,24 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "d:\work\cadencelib\library0.olb")
-      (Select "Design Resources" "d:\work\cadencelib\library0.olb" "TOP2xxV/K"))
+      (Select "Design Resources" "d:\work\cadencelib\library0.olb"
+         "STM32F103CxTx"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 292"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 292"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1818 182 641")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "274 63")
+        (Zoom "135"))
+      (Path "D:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (Package "STM32F103CxTx")))
   (MPSSessionName "zhuya")
   (ISPCBBASICLICENSE "false"))
