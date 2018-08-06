@@ -1,9 +1,9 @@
 # Allegro Script
-# File: D:\WORK\cadencelib\QFN17P65_400X400X100L40X30T265N\cmplx-1121-2_65-2_65.psx
+# File: D:\WORK\cadencelib\SON13P50_400X400X80L40X25T300X260N\CMPLX-1121-2_6-3.psx
 version 17.2
 
 new
-newdrawfillin "cmplx-1121-2_65-2_65.dra" "Shape Symbol"
+newdrawfillin "CMPLX-1121-2_6-3.dra" "Shape Symbol"
 setwindow pcb
 
 # Drawing Parameters
@@ -32,35 +32,36 @@ FORM mini dyns_fill_type Static solid
 FORM mini dyns_grid None
 FORM mini dyns_lock_mode Line
 setwindow pcb
-pick 0 -1.325
-pick -1.225 -1.325
+pick 0 -1.5
+pick -1.25 -1.5
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick -1.325 -1.225
-pick -1.2957 -1.2957
-pick -1.325 0.825
-pick -0.825 1.325
-pick 1.225 1.325
+pick -1.3 -1.45
+pick -1.2854 -1.4854
+pick -1.3 1.25
+pick -1.05 1.5
+pick 1.25 1.5
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick 1.325 1.225
-pick 1.2957 1.2957
-pick 1.325 -1.225
+pick 1.3 1.45
+pick 1.2854 1.4854
+pick 1.3 -1.45
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick 1.225 -1.325
-pick 1.2957 -1.2957
-pick 0 -1.325
+pick 1.25 -1.5
+pick 1.2854 -1.4854
+pick 0 -1.5
 done
 
 zoom fit
 save_as
-fillin "cmplx-1121-2_65-2_65.dra"
+fillin "cmplx-1121-2_6-3.dra"
 create symbol
-fillin "cmplx-1121-2_65-2_65.ssm"
+fillin "cmplx-1121-2_6-3.ssm"
+fillin yes
 exit
 fillin yes
 
