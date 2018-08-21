@@ -12,7 +12,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\work\cadencelib\connector.olb"))
+      (Path "Design Resources" "d:\work\cadencelib\connector.olb")
+      (Select "Design Resources" "d:\work\cadencelib\connector.olb" "MC_XBWB-P"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

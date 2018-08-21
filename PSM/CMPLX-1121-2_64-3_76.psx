@@ -1,0 +1,68 @@
+# Allegro Script
+# File: D:\WORK\cadencelib\SON9P127_500X600X110L63X41T376X264N\CMPLX-1121-2_64-3_76.psx
+version 17.2
+
+new
+newdrawfillin "CMPLX-1121-2_64-3_76.dra" "Shape Symbol"
+setwindow pcb
+
+# Drawing Parameters
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit units Millimeter
+FORM prmedit accuracy 4
+FORM prmedit size Other
+FORM prmedit x -10
+FORM prmedit y -10
+FORM prmedit width 20
+FORM prmedit height 20
+FORM prmedit x -10
+FORM prmedit y -10
+FORM prmedit done
+setwindow pcb
+
+# Graphics
+shape add
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass
+FORM mini dyns_fill_type Static solid
+FORM mini dyns_grid None
+FORM mini dyns_lock_mode Line
+setwindow pcb
+pick 0 -1.88
+pick -1.22 -1.88
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick -1.32 -1.78
+pick -1.2907 -1.8507
+pick -1.32 1.58
+pick -1.02 1.88
+pick 1.22 1.88
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick 1.32 1.78
+pick 1.2907 1.8507
+pick 1.32 -1.78
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick 1.22 -1.88
+pick 1.2907 -1.8507
+pick 0 -1.88
+done
+
+zoom fit
+save_as
+fillin "cmplx-1121-2_64-3_76.dra"
+create symbol
+fillin "cmplx-1121-2_64-3_76.ssm"
+fillin yes
+exit
+fillin yes
+
+# end
