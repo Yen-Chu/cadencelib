@@ -13,7 +13,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\work\cadencelib\library0.olb"))
+      (Path "Design Resources" ".\library0.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

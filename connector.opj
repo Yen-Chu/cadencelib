@@ -13,12 +13,12 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "d:\work\cadencelib\connector.olb")
-      (Select "Design Resources" "d:\work\cadencelib\connector.olb" "MC_XBWB-P"))
+      (Select "Design Resources" "d:\work\cadencelib\connector.olb" "HEAD 2X15"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
       (Tab 0)))
   (MPSSessionName "zhuya")
   (ISPCBBASICLICENSE "false"))
