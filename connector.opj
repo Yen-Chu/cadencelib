@@ -13,7 +13,8 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "d:\work\cadencelib\connector.olb")
-      (Select "Design Resources" "d:\work\cadencelib\connector.olb" "HEAD 2X15"))
+      (Select "Design Resources" "d:\work\cadencelib\connector.olb"
+         "S_CONN_S28P0G03"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
