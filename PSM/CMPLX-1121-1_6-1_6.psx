@@ -1,9 +1,9 @@
 # Allegro Script
-# File: D:\WORK\cadencelib\QFN17P80_500X500X80L62X30T310N\CMPLX-1121-3_1-3_1.psx
+# File: D:\WORK\cadencelib\QFN17P50_300X300X80L40X24T160N\CMPLX-1121-1_6-1_6.psx
 version 17.2
 
 new
-newdrawfillin "CMPLX-1121-3_1-3_1.dra" "Shape Symbol"
+newdrawfillin "CMPLX-1121-1_6-1_6.dra" "Shape Symbol"
 setwindow pcb
 
 # Drawing Parameters
@@ -13,12 +13,12 @@ FORM prmedit design
 FORM prmedit units Millimeter
 FORM prmedit accuracy 4
 FORM prmedit size Other
-FORM prmedit x -10
-FORM prmedit y -10
-FORM prmedit width 20
-FORM prmedit height 20
-FORM prmedit x -10
-FORM prmedit y -10
+FORM prmedit x -7.5
+FORM prmedit y -7.5
+FORM prmedit width 15
+FORM prmedit height 15
+FORM prmedit x -7.5
+FORM prmedit y -7.5
 FORM prmedit done
 setwindow pcb
 
@@ -32,35 +32,35 @@ FORM mini dyns_fill_type Static solid
 FORM mini dyns_grid None
 FORM mini dyns_lock_mode Line
 setwindow pcb
-pick 0 -1.55
-pick -1.35 -1.55
+pick 0 -0.8
+pick -0.7 -0.8
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick -1.55 -1.35
-pick -1.4914 -1.4914
-pick -1.55 1.05
-pick -1.05 1.55
-pick 1.35 1.55
+pick -0.8 -0.7
+pick -0.7707 -0.7707
+pick -0.8 0.5
+pick -0.5 0.8
+pick 0.7 0.8
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick 1.55 1.35
-pick 1.4914 1.4914
-pick 1.55 -1.35
+pick 0.8 0.7
+pick 0.7707 0.7707
+pick 0.8 -0.7
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick 1.35 -1.55
-pick 1.4914 -1.4914
-pick 0 -1.55
+pick 0.7 -0.8
+pick 0.7707 -0.7707
+pick 0 -0.8
 done
 
 zoom fit
 save_as
-fillin "cmplx-1121-3_1-3_1.dra"
+fillin "cmplx-1121-1_6-1_6.dra"
 create symbol
-fillin "cmplx-1121-3_1-3_1.ssm"
+fillin "cmplx-1121-1_6-1_6.ssm"
 fillin yes
 exit
 fillin yes

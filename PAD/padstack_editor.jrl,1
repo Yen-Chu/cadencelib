@@ -1,7 +1,0 @@
-\t (00:00:00) padstack_editor 17.2 S002 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Mon Nov 26 20:55:16 2018
-\t (00:00:00)         Host=YEN_WORKSTATION User=zhuya Pid=22184 CPUs=12
-\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\padstack_editor.exe D:\WORK\cadencelib\PAD\c180h120.pad
-\t (00:00:00) 
-\d (00:00:01) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\t (00:00:04)     Journal end - Mon Nov 26 20:55:20 2018
