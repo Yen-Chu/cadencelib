@@ -1,0 +1,191 @@
+\t (00:00:02) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Thu Aug 01 14:31:23 2019
+\t (00:00:02)         Host=YEN_WORKSTATION User=zhuya Pid=22388 CPUs=12
+\t (00:00:02) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe D:\WORK\cadencelib\DRA\QFN25P50_400X400X95L40X24T270N.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:05) Design opened: D:/WORK/cadencelib/DRA/QFN25P50_400X400X95L40X24T270N.dra
+\i (00:00:05) trapsize 321
+\i (00:00:05) trapsize 328
+\i (00:00:05) trapsize 329
+\i (00:00:05) generaledit 
+\i (00:00:07) pick grid 1.2744 -1.1360
+\t (00:00:07) last pick:  2.5400 0.0000
+\i (00:00:09) delete 
+\i (00:00:09) generaledit 
+\i (00:00:11) pick grid 0.1878 -1.3401
+\t (00:00:11) last pick:  0.0000 -2.5400
+\i (00:00:12) delete 
+\i (00:00:12) generaledit 
+\i (00:00:15) pick grid -1.3664 -0.6092
+\t (00:00:15) last pick:  -2.5400 0.0000
+\i (00:00:16) delete 
+\i (00:00:16) generaledit 
+\i (00:00:17) pick grid -1.3005 -0.9253
+\t (00:00:17) last pick:  -2.5400 0.0000
+\i (00:00:19) delete 
+\i (00:00:19) generaledit 
+\i (00:00:20) pick grid -1.1491 1.3335
+\t (00:00:20) last pick:  0.0000 2.5400
+\i (00:00:20) delete 
+\i (00:00:20) generaledit 
+\i (00:00:21) pick grid -1.3137 1.3204
+\t (00:00:21) last pick:  -2.5400 2.5400
+\i (00:00:22) delete 
+\i (00:00:23) generaledit 
+\i (00:00:24) drag_start grid -0.1151 1.2611
+\i (00:00:24) move 
+\t (00:00:24) last pick:  0.0000 0.0000
+\t (00:00:24) Pick new location for the element(s).
+\i (00:00:26) drag_stop grid 2.1832 -1.9328
+\i (00:00:26) generaledit 
+\i (00:00:26) drag_start grid 0.0363 1.2677
+\i (00:00:26) move 
+\t (00:00:27) last pick:  0.0000 0.0000
+\t (00:00:27) Pick new location for the element(s).
+\i (00:00:28) drag_stop grid 2.0976 -2.0053
+\i (00:00:28) generaledit 
+\i (00:00:29) drag_start grid 0.0100 1.2940
+\i (00:00:29) move 
+\t (00:00:29) last pick:  0.0000 0.0000
+\t (00:00:29) Pick new location for the element(s).
+\i (00:00:30) drag_stop grid 2.9076 -1.6892
+\i (00:00:30) generaledit 
+\i (00:00:31) pick grid 0.5171 0.1482
+\t (00:00:31) last pick:  0.0000 0.0000
+\i (00:00:32) delete 
+\i (00:00:32) generaledit 
+\i (00:00:33) pick grid -0.7803 1.0965
+\t (00:00:33) last pick:  0.0000 0.0000
+\i (00:00:34) delete 
+\i (00:00:34) generaledit 
+\i (00:00:35) pick grid 1.3336 1.3006
+\t (00:00:35) last pick:  2.5400 2.5400
+\i (00:00:36) delete 
+\i (00:00:37) generaledit 
+\i (00:00:37) pick grid 1.3402 0.6289
+\t (00:00:37) last pick:  2.5400 0.0000
+\i (00:00:39) delete 
+\i (00:00:39) generaledit 
+\i (00:00:40) pick grid -0.6617 -0.1153
+\t (00:00:40) last pick:  0.0000 0.0000
+\i (00:00:41) delete 
+\i (00:00:41) generaledit 
+\i (00:00:43) pick grid 0.7475 -0.1350
+\t (00:00:43) last pick:  0.0000 0.0000
+\i (00:00:44) delete 
+\i (00:00:44) generaledit 
+\i (00:00:46) pick grid 1.3534 -1.2414
+\t (00:00:46) last pick:  2.5400 0.0000
+\i (00:00:48) delete 
+\i (00:00:48) generaledit 
+\i (00:00:48) zoom out 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom out 2.5124 0.2272
+\i (00:00:48) trapsize 659
+\i (00:00:48) zoom out 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom out 7.5280 0.7672
+\i (00:00:48) trapsize 987
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 0.5322 -1.2440
+\i (00:00:49) trapsize 493
+\i (00:00:50) drag_start grid 2.7031 -1.2539
+\i (00:00:50) move 
+\t (00:00:50) last pick:  2.5400 -2.5400
+\t (00:00:50) Pick new location for the element(s).
+\i (00:00:52) drag_stop grid -0.5335 -0.2868
+\i (00:00:52) generaledit 
+\i (00:00:54) drag_start grid 2.7031 -1.2440
+\i (00:00:54) move 
+\t (00:00:54) last pick:  2.5400 -2.5400
+\t (00:00:54) Pick new location for the element(s).
+\i (00:00:55) drag_stop grid 0.0388 0.3644
+\i (00:00:55) generaledit 
+\i (00:00:56) drag_start grid 2.7721 -1.2341
+\i (00:00:56) move 
+\t (00:00:56) last pick:  2.5400 -2.5400
+\t (00:00:56) Pick new location for the element(s).
+\i (00:00:58) drag_stop grid -0.1289 0.8973
+\i (00:00:58) generaledit 
+\i (00:01:02) zoom in 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom in -1.5597 -1.9841
+\i (00:01:02) trapsize 247
+\i (00:01:02) zoom in 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom in -1.5350 -1.9840
+\i (00:01:02) trapsize 123
+\i (00:03:33) zoom out 1 
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom out 0.5520 -1.7669
+\i (00:03:33) trapsize 247
+\i (00:03:37) zoom out 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom out -2.4083 -2.4675
+\i (00:03:37) trapsize 493
+\i (00:03:37) zoom out 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom out 0.7297 -2.3590
+\i (00:03:37) trapsize 987
+\i (00:03:38) zoom in 1 
+\i (00:03:38) setwindow pcb
+\i (00:03:38) zoom in -4.4016 -0.8690
+\i (00:03:38) trapsize 493
+\i (00:03:53) setwindow form.mini
+\i (00:03:53) FORM mini class PACKAGE GEOMETRY 
+\i (00:03:56) FORM mini subclass SILKSCREEN_TOP 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom in 1 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom in -2.2702 -2.7241
+\i (00:03:58) trapsize 247
+\i (00:03:59) zoom in 1 
+\i (00:03:59) setwindow pcb
+\i (00:03:59) zoom in -1.9643 -2.4922
+\i (00:03:59) trapsize 123
+\i (00:04:05) shape add circle 
+\i (00:04:07) zoom out 1 
+\i (00:04:07) setwindow pcb
+\i (00:04:07) zoom out -1.4980 -2.4872
+\i (00:04:07) trapsize 247
+\i (00:04:10) pick grid -1.9767 -2.5119
+\t (00:04:10) last pick:  -2.5400 -2.5400
+\i (00:04:18) prepopup -2.3960 -2.4280
+\i (00:04:19) oops 
+\i (00:04:22) setwindow form.mini
+\i (00:04:22) FORM mini cir_specify YES 
+\i (00:04:39) FORM mini cir_radius 0.2000 
+\i (00:04:39) FORM mini cir_create  
+\i (00:04:40) setwindow pcb
+\i (00:04:40) zoom out 1 
+\i (00:04:40) setwindow pcb
+\i (00:04:40) zoom out -1.2859 -1.7669
+\i (00:04:40) trapsize 493
+\i (00:04:58) setwindow form.mini
+\i (00:04:58) FORM mini cir_x_coord -2.0000 
+\i (00:04:59) FORM mini cir_create  
+\i (00:05:01) setwindow pcb
+\i (00:05:01) prepopup 4.5780 -0.5236
+\i (00:05:01) done 
+\i (00:05:01) generaledit 
+\i (00:05:02) pick grid -2.6846 -2.5760
+\t (00:05:02) last pick:  -2.5400 -2.5400
+\i (00:05:04) delete 
+\i (00:05:04) generaledit 
+\i (00:05:10) save_as 
+\i (00:05:16) fillin "QFN24P50_400X400X95L40X24T270N.dra"
+\t (00:05:17) Symbol 'qfn24p50_400x400x95l40x24t270n.psm' created.
+\i (00:05:17) generaledit 
+\i (00:05:22) create symbol 
+\i (00:05:27) fillin "D:\WORK\cadencelib\PSM\QFN24P50_400X400X95L40X24T270N.psm"
+\t (00:05:27) Creating package symbol 'D:/WORK/cadencelib/PSM/QFN24P50_400X400X95L40X24T270N.psm'.
+\t (00:05:27) Starting Create symbol...
+\i (00:05:28) generaledit 
+\i (00:05:32) exit 
+\e (00:05:32) Do you want to save the changes you made to D:/WORK/cadencelib/DRA/QFN24P50_400X400X95L40X24T270N.dra?
+\i (00:05:33) fillin yes 
+\t (00:05:34) Symbol 'qfn24p50_400x400x95l40x24t270n.psm' created.
+\t (00:05:34)     Journal end - Thu Aug 01 14:36:54 2019
