@@ -1,5 +1,5 @@
 # Allegro Script
-# File: C:\Users\zhuya\Desktop\QFN21P50_400X400X80L40X25T250N\CMPLX-1121-2_5-2_5.psx
+# File: D:\WORK\cadencelib\QFN25P50_400X400X80L40X29T250N\CMPLX-1121-2_5-2_5.psx
 version 17.2
 
 new
@@ -25,7 +25,6 @@ setwindow pcb
 # Graphics
 shape add
 setwindow Form.mini
-FORM mini lock_direction Off
 FORM mini class PACKAGE GEOMETRY
 FORM mini subclass
 FORM mini dyns_fill_type Static solid
@@ -33,26 +32,26 @@ FORM mini dyns_grid None
 FORM mini dyns_lock_mode Line
 setwindow pcb
 pick 0 -1.25
-pick -1.15 -1.25
+pick -1.2 -1.25
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick -1.25 -1.15
-pick -1.2207 -1.2207
-pick -1.25 0.75
-pick -0.75 1.25
-pick 1.15 1.25
+pick -1.25 -1.2
+pick -1.2354 -1.2354
+pick -1.25 0.9
+pick -0.9 1.25
+pick 1.2 1.25
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick 1.25 1.15
-pick 1.2207 1.2207
-pick 1.25 -1.15
+pick 1.25 1.2
+pick 1.2354 1.2354
+pick 1.25 -1.2
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick 1.15 -1.25
-pick 1.2207 -1.2207
+pick 1.2 -1.25
+pick 1.2354 -1.2354
 pick 0 -1.25
 done
 
@@ -61,6 +60,7 @@ save_as
 fillin "cmplx-1121-2_5-2_5.dra"
 create symbol
 fillin "cmplx-1121-2_5-2_5.ssm"
+fillin yes
 exit
 fillin yes
 
