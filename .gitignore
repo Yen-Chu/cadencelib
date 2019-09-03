@@ -1,6 +1,6 @@
-*.OLBlck
-*.jrl
-*.OBK
+*.OLBlck*
+*.jrl*
+*.OBK*
 connector.opj
 library0.opj
 powermodel.opj
