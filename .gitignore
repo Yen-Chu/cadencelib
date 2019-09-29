@@ -1,6 +1,7 @@
 *.OLBlck*
 *.jrl*
 *.OBK*
+*.tag
 connector.opj
 library0.opj
 powermodel.opj
