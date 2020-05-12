@@ -3,7 +3,9 @@
 *.OBK*
 *.tag
 *.log
+
 connector.opj
 library0.opj
 powermodel.opj
 mft.opj
+fpga.opj
