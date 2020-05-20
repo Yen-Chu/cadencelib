@@ -1,6 +1,0 @@
-if exist c50.pad del c50.pad
-padstack_editor -s C50.SCR
-if exist c75m150k150.pad del c75m150k150.pad
-padstack_editor -s C75M150K150.SCR
-if exist BGA900CP100_30X30_3100X3100X335B60N.dra del BGA900CP100_30X30_3100X3100X335B60N.dra
-allegro -s BGA900CP100_30X30_3100X3100X335B60N.SCR

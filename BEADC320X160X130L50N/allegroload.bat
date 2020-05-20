@@ -1,4 +1,0 @@
-if exist r120_182r25.pad del r120_182r25.pad
-padstack_editor -s R120_182R25.SCR
-if exist BEADC320X160X130L50N.dra del BEADC320X160X130L50N.dra
-allegro -s BEADC320X160X130L50N.SCR
