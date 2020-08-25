@@ -1,12 +1,14 @@
 # Allegro Script
-# File: D:\WORK\cadencelib\SON9P50_200X300X80L30X25T150N-Q2\CMPLX-1121-1_5-1_5.psx
-version 17.2
+# File: D:\WORK\cadencelib\QFN17P50_300X300X80L40X25T150N\CMPLX-1121-1_5-1_5.psx
+version 17.2.048
 
 new
 newdrawfillin "CMPLX-1121-1_5-1_5.dra" "Shape Symbol"
 setwindow pcb
 
 # Drawing Parameters
+QtSignal SPBDesignInitPrompt spbdip_ok_button clicked
+
 prmed
 setwindow Form.prmedit
 FORM prmedit design
@@ -32,26 +34,26 @@ FORM mini dyns_grid None
 FORM mini dyns_lock_mode Line
 setwindow pcb
 pick 0 -0.75
-pick -0.65 -0.75
+pick -0.7 -0.75
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick -0.75 -0.65
-pick -0.7207 -0.7207
-pick -0.75 0.45
-pick -0.45 0.75
-pick 0.65 0.75
+pick -0.75 -0.7
+pick -0.7354 -0.7354
+pick -0.75 0.4
+pick -0.4 0.75
+pick 0.7 0.75
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick 0.75 0.65
-pick 0.7207 0.7207
-pick 0.75 -0.65
+pick 0.75 0.7
+pick 0.7354 0.7354
+pick 0.75 -0.7
 setwindow Form.mini
 FORM mini dyns_lock_mode Arc
 setwindow pcb
-pick 0.65 -0.75
-pick 0.7207 -0.7207
+pick 0.7 -0.75
+pick 0.7354 -0.7354
 pick 0 -0.75
 done
 
