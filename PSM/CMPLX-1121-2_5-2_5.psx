@@ -1,12 +1,14 @@
 # Allegro Script
-# File: D:\WORK\cadencelib\QFN25P50_400X400X80L40X29T250N\CMPLX-1121-2_5-2_5.psx
-version 17.2
+# File: D:\WORK\cadencelib\QFN25P50_400X400X100L40X24T250N\CMPLX-1121-2_5-2_5.psx
+version 17.2.048
 
 new
 newdrawfillin "CMPLX-1121-2_5-2_5.dra" "Shape Symbol"
 setwindow pcb
 
 # Drawing Parameters
+QtSignal SPBDesignInitPrompt spbdip_ok_button clicked
+
 prmed
 setwindow Form.prmedit
 FORM prmedit design

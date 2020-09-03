@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (( 'STEP AP214' ), '1' );
 FILE_NAME ( 'INDM440X420X200L80X200.step',
-    '2020-06-10T21:44:54',
+    '2020-09-03T20:11:06',
     ( '' ),
     ( '' ),
     'Part was generated with the free Library Expert Lite available at www.PCBLibraries.com. Removing line will violate the End User License Agreement.',
