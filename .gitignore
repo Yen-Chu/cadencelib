@@ -1,8 +1,8 @@
 *.OLBlck*
 *.jrl*
 *.OBK*
-*.tag
-*.log
+*.tag*
+*.log*
 
 connector.opj
 library0.opj
