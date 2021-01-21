@@ -3,6 +3,7 @@
 *.OBK*
 *.tag*
 *.log*
+*.bat
 
 connector.opj
 library0.opj
