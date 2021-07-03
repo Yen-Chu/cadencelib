@@ -4,11 +4,4 @@
 *.tag*
 *.log*
 *.bat
-
-connector.opj
-library0.opj
-powermodel.opj
-mft.opj
-fpga.opj
-osc.opj
-mcu.opj
+*.opj
