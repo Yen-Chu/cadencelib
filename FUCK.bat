@@ -2,3 +2,8 @@ if exist *.OBK del *.OBK
 if exist *.XML del *.XML
 if exist *.OPJ del *.OPJ
 if exist *.OLBlck del *.OLBlck
+if exist *.log del *.log
+if exist *.log,* del *.log,*
+if exist *.tag del *.tag
+if exist *.jrl del *.jrl
+if exist *.jrl,* del *.jrl,*
